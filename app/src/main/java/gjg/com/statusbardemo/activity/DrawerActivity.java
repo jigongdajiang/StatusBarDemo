@@ -18,7 +18,6 @@ import gjg.com.statusbardemo.util.StatusBarCompat;
  */
 
 public class DrawerActivity extends AppCompatActivity implements ViewTreeObserver.OnGlobalLayoutListener{
-
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
