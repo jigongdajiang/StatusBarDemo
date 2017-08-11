@@ -94,5 +94,5 @@ new StatusBarCompat.Builder(this)
                 .builder()
                 .apply();
 ```
-![1](https://github.com/jigongdajiang/StatusBarDemo/raw/master/app/imgs/8.png) </br>
+![1](https://github.com/jigongdajiang/StatusBarDemo/raw/master/app/imgs/8.png)
 
