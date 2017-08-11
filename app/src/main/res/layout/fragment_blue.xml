@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:background="@color/colorAccent">
+
+    </RelativeLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="20dp">
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="#837483"/>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:background="#474732"
+            android:layout_marginTop="10dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:background="#eabcd0"
+            android:layout_marginTop="10dp"
+            android:text="顶部为深色时,图标为浅色"
+            android:gravity="center"
+            android:textColor="#000000"/>
+    </LinearLayout>
+</LinearLayout>

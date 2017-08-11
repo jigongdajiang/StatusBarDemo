@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="gjg.com.statusbardemo">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".activity.ChangeIconActivity"/>
+        <activity android:name=".activity.ColourActivity"/>
+        <activity android:name=".activity.ColourHalfActivity"/>
+        <activity android:name=".activity.FullHideActivity"/>
+        <activity android:name=".activity.FullImmerseActivity"/>
+        <activity android:name=".activity.ImmerseHalfActivity"/>
+        <activity android:name=".activity.ImmerseTopActivity"/>
+        <activity android:name=".activity.DrawerActivity"/>
+    </application>
+
+</manifest>
