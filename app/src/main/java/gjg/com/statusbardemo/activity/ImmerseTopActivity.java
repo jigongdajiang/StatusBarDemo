@@ -22,6 +22,10 @@ public class ImmerseTopActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activit_immerse_top);
         View top_warpper = findViewById(R.id.top_warpper);
-        new StatusBarCompat.Builder(this).setSupportType(0).setPaddingChangedView(top_warpper).builder().apply();
+        new StatusBarCompat.Builder(this)
+                .setSupportType(0)
+                .setPaddingChangedView(top_warpper)
+                .builder()
+                .apply();
     }
 }

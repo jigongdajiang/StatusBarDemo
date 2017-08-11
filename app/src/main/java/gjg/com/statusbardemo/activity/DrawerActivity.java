@@ -26,7 +26,7 @@ public class DrawerActivity extends AppCompatActivity implements ViewTreeObserve
 
         new StatusBarCompat.Builder(this)
                 .setSupportType(3)
-                .setColor(R.color.DeepSkyBlue).setSupportNavBar(true)
+                .setColor(R.color.DeepSkyBlue)
                 .builder()
                 .apply();
 

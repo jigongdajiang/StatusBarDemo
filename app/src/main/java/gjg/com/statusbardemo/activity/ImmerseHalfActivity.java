@@ -20,6 +20,12 @@ public class ImmerseHalfActivity extends AppCompatActivity {
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_immerse_half);
-        new StatusBarCompat.Builder(this).setSupportType(0).setColor(R.color.color_black).setAlpha(128).setSupportNavBar(true).builder().apply();
+        new StatusBarCompat.Builder(this)
+                .setSupportType(0)
+                .setColor(R.color.color_black)
+                .setAlpha(128)
+                .setSupportNavBar(true)
+                .builder()
+                .apply();
     }
 }
