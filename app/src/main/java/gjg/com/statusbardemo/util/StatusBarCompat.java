@@ -540,9 +540,10 @@ public class StatusBarCompat {
     }
 
     private boolean chaneIcon(Activity activity,boolean dark){
-        return setStatusBarLightMode(activity,dark)
-                || MIUISetStatusBarLightMode(activity,dark)
-                || FlymeSetStatusBarLightMode(activity,dark);
+        boolean r1 = setStatusBarLightMode(activity,dark);
+        boolean r2 = MIUISetStatusBarLightMode(activity,dark);
+        boolean r3 = FlymeSetStatusBarLightMode(activity,dark);
+        return r1 || r2 || r3;
     }
 
     /**
@@ -564,7 +565,7 @@ public class StatusBarCompat {
             //如果支持类型不合法则认为是不支持
             supportType = -1;
         }
-        if(changeIconType != 0 && changeIconType != 1 && changeIconType == 2){
+        if(changeIconType != 0 && changeIconType != 1 && changeIconType != 2){
             //图标切换参数不合法时认为是不切换
             changeIconType = 0;
         }
